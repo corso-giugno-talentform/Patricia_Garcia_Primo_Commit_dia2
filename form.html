@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./table.html">Tabella</a>
+            <a href="./index.html">Home</a>
+        </nav>
+    </header>
+    <main>
+        <img src="./banner.png" width="500">
+        <h1>Benvenuto!</h1>
+        <h2>Compila il Modulo di Registrazione!</h2>
+        <form action="#" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Scrivi il nome" required>
+        </div>
+        <div>
+            <label for="cognome">Email:</label>
+            <input type="text" id="cognome" name="cognome" placeholder="Scrivi il cognome" required>
+        </div>
+        <div>
+            <label for="tipo-camera">Tipo di camera:</label>
+                <select name="tipo-camera" id="tipo-camera">
+                <option value="">--Selecciona un tipo de camera--</option>
+                <option value="singola">Singola</option>
+                <option value="doppia">Doppia</option>
+                <option value="matrimoniale">Matrimoniale</option>
+                <option value="tripla">Tripla</option>
+                <option value="quadrupla">Quadrupla</option>
+                <option value="suite">Suite</option>
+                <option value="deluxe">Camera Deluxe</option>
+                <option value="familiare">Camera Familiare</option>
+                <option value="vista_mare">Camera con vista mare</option>
+            </select>
+        </div>
+        <div>
+            <label for="data-arrivo">Data di arrivo:</label>
+            <input type="date" id="data-arrivo" name="data-arrivo" required>
+        </div>
+        <div>
+            <label for="data-partenza">Data di partenza:</label>
+            <input type="date" id="data-partenza" name="data-partenza" required>
+        </div>
+        <div>
+            <label for="numero-persone">Numero di persone:</label>
+            <input type="number" id="numero-persone" name="numero-persone" required>
+        </div>
+        <div>
+            <button class="invia" type="submit">Invia</button> 
+        </div>
+    </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
